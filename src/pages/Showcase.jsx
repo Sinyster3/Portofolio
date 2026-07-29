@@ -192,37 +192,37 @@ export const portfolioData = {
     {
       id: 2,
       title: "Data Science & Machine Learning",
-      image: cert1, // ganti dengan cert1
+      image: cert2, // ganti dengan cert1
       link: "#",
     },
     {
       id: 3,
       title: "Bootcamp IT Support",
-      image: cert2,
+      image: cert3,
       link: "#",
     },
     {
       id: 4,
       title: "Smartpath Bootcamp Analisis Data International",
-      image: cert3,
+      image: cert4,
       link: "#",
     },
     {
       id: 5,
       title: "The Role of Machine Learning in Supporting Digital Indonesia 2024",
-      image: cert4,
+      image: cert5,
       link: "#",
     },
     {
       id: 6,
       title: "Info Session “Intership: Maximize The Selection Process”",
-      image: cert5,
+      image: cert6,
       link: "#",
     },
     {
       id: 7,
       title: "Softskill Universitas Ahmad Dahlan",
-      image: cert6,
+      image: cert7,
       link: "#",
     },
   ],
