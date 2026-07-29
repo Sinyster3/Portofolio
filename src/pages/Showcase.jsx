@@ -36,9 +36,9 @@ export const portfolioData = {
   projects: [
     {
       id: 1,
-      title:"Project Portfolio",
+      title:"Project Portofolio",
       date:"Juli 2026",
-      desc:"Website portfolio pribadi yang menampilkan profil, pengalaman, proyek, sertifikat, serta keahlian teknis dalam tampilan modern, responsif, dan interaktif. Website ini dirancang untuk memudahkan recruiter atau klien dalam melihat hasil karya dan informasi profesional..",
+      desc:"Website portofolio pribadi yang menampilkan profil, pengalaman, proyek, sertifikat, serta keahlian teknis dalam tampilan modern, responsif, dan interaktif. Website ini dirancang untuk memudahkan recruiter atau klien dalam melihat hasil karya dan informasi profesional..",
       tag: "Front End Developer",
       image: proj1, //portfolioImg
       demo:"#", //https://namadomainmu.vercel.app
@@ -261,7 +261,7 @@ export default function Showcase() {
       {/* Header */}
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-extrabold text-cyan-700">
-          Portfolio Showcase
+          Portofolio Showcase
         </h2>
         <p className="mt-2 text-gray-700 text-sm md:text-base max-w-2xl mx-auto">
           Explore my journey through projects, and technical expertise. Each section represent a
