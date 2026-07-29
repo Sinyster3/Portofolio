@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
@@ -23,7 +23,7 @@ function HomePage() {
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Routes>
 
         {/* Halaman utama */}
@@ -33,7 +33,7 @@ function App() {
         <Route path="/project/:id" element={<ProjectDetail />} />
 
       </Routes>
-    </>
+    </BrowserRouter>
   );
 }
 
