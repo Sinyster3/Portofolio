@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/Sinyster3/Portofolio",
+  "homepage": "https://sinyster3.github.io/Portofolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
