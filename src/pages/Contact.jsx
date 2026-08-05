@@ -108,7 +108,7 @@ if (error) {
                   <SocialBox 
                     logo={githubLogo}
                     label="GitHub" 
-                    href="#https://github.com/Sinyster3" 
+                    href="https://github.com/Sinyster3" 
                     />
                   <SocialBox 
                     logo={xLogo}
