@@ -7,6 +7,8 @@ import proj3 from"../assets/projects/technophoria.png";
 import proj4 from"../assets/projects/webcamping.png";
 import proj5 from"../assets/projects/etillang.png";
 import proj6 from"../assets/projects/email.png";
+import proj7 from"../assets/projects/herosection.png";
+import proj8 from"../assets/projects/minibookingservice.png";
 
 import cert1 from "../assets/certif/hactiv.png";
 import cert2 from "../assets/certif/datasciencemachinelearning.jpg";
@@ -35,13 +37,67 @@ import Logo12 from "../assets/tools/react.png";
 export const portfolioData = {
   projects: [
     {
+      id: 8,
+      title:"Mini Boking Service",
+      date:"Agustus 2026",
+      desc:"Mini Booking Service adalah aplikasi web pemesanan tiket bus yang dibangun untuk mensimulasikan proses pemesanan secara end-to-end, mulai dari pencarian jadwal, pemilihan kursi, hingga konfirmasi booking. Aplikasi ini memiliki dua peran pengguna (Admin dan User) serta menerapkan mekanisme temporary seat lock dan database transaction untuk mencegah terjadinya double booking ketika beberapa pengguna melakukan pemesanan pada waktu yang bersamaan. Selain menyediakan antarmuka yang responsif, aplikasi juga dilengkapi dengan REST API untuk mendukung operasi CRUD pada data utama.",
+      tag: "Full Stack Developer",
+      image: proj8, 
+      demo:"", 
+      github:"https://github.com/Sinyster3/Mini-Booking-Service", 
+      technologies:[
+          "Laravel 10",
+          "PHP 8.1",
+          "MySQL",
+          "Boostrap5",
+          "JavaScript",
+          "JWT Authentication (tymon/jwt-auth)",
+          "REST API",
+          "Database Transaction (DB::transaction)",
+          "Pessimistic Locking (lockForUpdate)"
+      ],
+      features:[
+          "Login Admin & User (JWT Authentication)",
+          "Pencarian jadwal perjalanan",
+          "Filter berdasarkan asal, tujuan, operator, dan tanggal",
+          "Pemilihan kursi",
+          "Temporary Seat Lock (5 menit)",
+          "Konfirmasi & Riwayat Booking",
+          "Dashboard Admin",
+          "CRUD Operator, Rute, Jadwal, Kursi, dan Booking",
+          "REST API",
+          "Concurrency Handling (Database Transaction & lockForUpdate)"
+      ]
+    },
+    {
+      id: 7,
+      title:"Landing Page Hero Section Redesign",
+      date:"Agustus 2026",
+      desc:"Melakukan redesign pada hero section landing page untuk kursus Grafologi dengan pendekatan UI/UX yang lebih modern dan minimalis. Proyek ini berfokus pada peningkatan visual hierarchy, tipografi, tata letak, dan call-to-action agar informasi utama lebih mudah dipahami tanpa mengubah inti produk. Dibangun menggunakan HTML dan CSS dengan desain yang responsif serta memperhatikan pengalaman pengguna.",
+      tag: "HTML",
+      image: proj7, 
+      demo:"https://sinyster3.github.io/Hero_Section/", 
+      github:"https://github.com/Sinyster3/Hero_Section", 
+      technologies:[
+          "HTML",
+          "CSS3",
+          "JavaScript"
+      ],
+      features:[
+          "Modern & minimalist hero section",
+          "Improved visual hierarchy and typography",
+          "Lightweight implementation using HTML, CSS, and JavaScript",
+          "Desain Responsif"
+      ]
+    },
+    {
       id: 1,
       title:"Project Portofolio",
       date:"Juli 2026",
       desc:"Website portofolio pribadi yang menampilkan profil, pengalaman, proyek, sertifikat, serta keahlian teknis dalam tampilan modern, responsif, dan interaktif. Website ini dirancang untuk memudahkan recruiter atau klien dalam melihat hasil karya dan informasi profesional..",
       tag: "Front End Developer",
       image: proj1, //portfolioImg
-      demo:"#", //https://namadomainmu.vercel.app
+      demo:"#https://portofolio-beta-red-26.vercel.app/", //https://namadomainmu.vercel.app
       github:"https://github.com/Sinyster3/Portofolio", //https://github.com/username/portfolio
       technologies:[
           "React",

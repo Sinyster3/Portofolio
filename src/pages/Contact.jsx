@@ -18,12 +18,12 @@
 
     async function onSubmit(e) {
 
-      e.preventDefault();
-      const { data, error } = await supabase
+  await supabase
   .from("messages")
   .insert([
     {
       name: form.name,
+      email: form.email,
       message: form.message,
     },
   ]);
@@ -108,7 +108,7 @@ if (error) {
                   <SocialBox 
                     logo={githubLogo}
                     label="GitHub" 
-                    href="#" 
+                    href="#https://github.com/Sinyster3" 
                     />
                   <SocialBox 
                     logo={xLogo}
