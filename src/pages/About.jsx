@@ -59,7 +59,7 @@ export default function About() {
               <InfoRow icon={<IconId />} label="Name" value="Mohammad Habli Islamy Sholihin" />
               <InfoRow icon={<IconCap />} label="Education" value="Universitas Ahmad Dahlan" />
               <InfoRow icon={<IconPin />} label="Place of Birth" value="Ciamis, Indonesia" />
-              <InfoRow icon={<IconMedal />} label="GPA" value="3.51" />
+              <InfoRow icon={<IconMedal />} label="GPA" value="3.52" />
               <InfoRow icon={<IconCalendar />} label="Date of Birth" value="3 February 2003" />
             </div>
 

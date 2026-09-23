@@ -3,11 +3,11 @@ import habkiImg from "../assets/habki.jpeg";
 
 export default function Home() {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center min-h-[100vh] px-10 md:px-32 bg-white">
+    <section className="w-full min-h-screen flex flex-col md:flex-row items-center justify-center px-4 sm:px-8 md:px-32 pt-24 bg-white">
       
       {/* FOTO PROFIL */}
-      <div className="flex-shrink-0 md:mr-16 mb-10 md:mb-0">
-        <div className="w-72 h-72 md:w-96 md:h-96 rounded-full border-4 border-cyan-400 overflow-hidden shadow-lg">
+      <div className="w-full flex justify-center md:w-auto md:mr-16 mb-10 md:mb-0">
+        <div className="w-[75vw] max-w-72 md:w-96 md:max-w-none aspect-square rounded-full border-4 border-cyan-400 overflow-hidden shadow-lg">
           <img
             src={habkiImg}
             alt="Profile"
