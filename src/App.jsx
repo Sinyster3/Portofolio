@@ -25,13 +25,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-
         {/* Halaman utama */}
         <Route path="/" element={<HomePage />} />
 
         {/* Halaman Detail Project */}
         <Route path="/project/:id" element={<ProjectDetail />} />
-
       </Routes>
     </BrowserRouter>
   );

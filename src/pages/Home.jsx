@@ -4,7 +4,6 @@ import habkiImg from "../assets/habki.jpeg";
 export default function Home() {
   return (
     <section className="w-full min-h-screen flex flex-col md:flex-row items-center justify-center px-4 sm:px-8 md:px-32 pt-24 bg-white">
-      
       {/* FOTO PROFIL */}
       <div className="w-full flex justify-center md:w-auto md:mr-16 mb-10 md:mb-0">
         <div className="w-[75vw] max-w-72 md:w-96 md:max-w-none aspect-square rounded-full border-4 border-cyan-400 overflow-hidden shadow-lg">
@@ -21,21 +20,20 @@ export default function Home() {
         <p className="text-cyan-600 text-2xl font-medium mb-4">
           Welcome to my site
         </p>
-        <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6 text-gray-900"> 
+        <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6 text-gray-900">
           Hi, I’m{" "}
-          <span className="text-cyan-600">
-            Mohammad Habli Islamy Sholihin
-          </span>
+          <span className="text-cyan-600">Mohammad Habli Islamy Sholihin</span>
         </h1>
         <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-          I am an Informatics graduate from Ahmad Dahlan University with a strong interest 
-          in <span className="font-semibold">Front End Development</span>, {" "}
+          I am an Informatics graduate from Ahmad Dahlan University with a
+          strong interest in{" "}
+          <span className="font-semibold">Front End Development</span>,{" "}
           <span className="font-semibold">Web Development</span> and{" "}
-          <span className="font-semibold">Data Analytics. </span> 
-          I enjoy transforming ideas into responsive, user-friendly, and visually 
-          appealing web applications. Passionate about continuous learning, I am always 
-          eager to explore new technologies and create digital solutions that deliver 
-          meaningful user experiences.
+          <span className="font-semibold">Data Analytics. </span>I enjoy
+          transforming ideas into responsive, user-friendly, and visually
+          appealing web applications. Passionate about continuous learning, I am
+          always eager to explore new technologies and create digital solutions
+          that deliver meaningful user experiences.
         </p>
       </div>
     </section>
